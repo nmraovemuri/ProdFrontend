@@ -1,0 +1,8 @@
+// Gap Css
+@each $property, $value in $spaces {
+    .gap-#{$property} {
+      font-weight: bold;
+      font-size: 13px;
+      gap: var(--size-#{$property}) !important;
+    }
+  }
